@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation2 ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation2 ul li {
+    margin-right: 20px;
+}
+
+.two-columns {
+    display: flex;
+    margin: 20px;
+}
+
+.two-columns figure {
+    margin-right: 20px;
+}
+
+.content-right {
+    flex: 1;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.four-columns {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.four-columns article {
+    flex: 1;
+    margin-right: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.four-columns article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.cta .left-column {
+    flex: 1;
+}
+
+.cta .right-column {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cta form {
+    max-width: 300px; /* Ajusta el ancho del formulario según tus preferencias */
+}
+
+.cta label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.cta input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.cta button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #fffbfb;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 2px;
+    margin-inline: 2px;
+}
