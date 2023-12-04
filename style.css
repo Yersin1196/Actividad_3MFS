@@ -39,9 +39,10 @@ body {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color:  rgb(12, 58, 117);
     color: white;
     padding: 10px;
+    border-radius: 15px;
     border: none;
     cursor: pointer;
 }
@@ -67,6 +68,22 @@ button {
     height: auto;
 }
 
+.ofert {
+    background-color: red;
+    color: white;
+    padding: 15px 15px 15px 15px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
+.new {
+    background-color: rgb(12, 58, 117);
+    color: white;
+    padding: 15px 15px 15px 15px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
 .cta-section {
     text-align: center;
     margin: 20px;
@@ -76,7 +93,7 @@ button {
     display: flex;
     padding: 150px 100px 150px 100px;
     border-radius: 20px;
-    background-color: rgb(168, 245, 245);
+    background-color: rgb(201, 233, 233);
     justify-content: space-between;
     margin: 20px;
     margin-right: 150px;
@@ -109,7 +126,7 @@ button {
 }
 
 .cta button {
-    background-color: #4CAF50;
+    background-color: rgb(12, 58, 117);
     color: white;
     padding: 10px;
     border: none;
