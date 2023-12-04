@@ -1,7 +1,9 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "arial", sans-serif;
     margin: 0;
     padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .navigation {
@@ -24,6 +26,8 @@ body {
 .two-columns {
     display: flex;
     margin: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .two-columns figure {
@@ -46,6 +50,8 @@ button {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .four-columns article {
@@ -68,8 +74,13 @@ button {
 
 .cta {
     display: flex;
+    padding: 150px 100px 150px 100px;
+    border-radius: 20px;
+    background-color: rgb(168, 245, 245);
     justify-content: space-between;
     margin: 20px;
+    margin-right: 150px;
+    margin-left: 150px
 }
 
 .cta .left-column {
